@@ -29,5 +29,5 @@ h1 {font-family: "Dela Gothic One"; font-size: 80px; margin-left: 20px; text-sha
 h2 {font-family: "Titillium Web"; font-weight: 800; font-size: 60px; margin: 0}
 .fish, .bubble {z-index: 0}
 
-.recording-help:first-of-type {position: fixed; left: 1080px; height: 1080px; width: 80px; background-color: var(--recording-help)}
-.recording-help:nth-of-type(2) {position: fixed; top: 1080px; width: 1160px; height: 80px; background-color: var(--recording-help)}
+.recording-help:first-of-type {position: fixed; left: 1080px; height: 1080px; width: 100px; background-color: var(--recording-help)}
+.recording-help:nth-of-type(2) {position: fixed; top: 1080px; width: 1180px; height: 100px; background-color: var(--recording-help)}
