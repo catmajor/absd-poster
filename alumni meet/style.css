@@ -1,0 +1,43 @@
+:root {
+    --size: 1080px;
+    --recording-help: red;
+}
+body {margin: 0; padding: 0}
+main {height: var(--size); width: var(--size); background: url("pool.jpg"); background-repeat: no-repeat; z-index: -99; background-size: cover;}
+
+body>div {
+    z-index: 99;
+    position: fixed;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 1040px
+}
+body>div>div {
+    background-color: rgba(68,116,190, 0.7);
+    width: 880px;
+    padding: 40px;
+    border-radius: 40px;
+    margin-left: 20px;
+    box-shadow: 8px 8px 8px black;
+    margin-bottom: 90px;
+    display: flex;
+}
+body>div>div>div {
+    margin-left: 20px;
+    color: white;
+    justify-content: center; 
+    display: flex;
+    flex-direction: column
+}
+h1, h2 {color: white}
+
+body div img {height: 578px; width: 350px; border-radius: 20px; box-shadow: 4px 4px 4px black, -4px -4px 4px black, -4px 4px 4px black, 4px -4px 4px black}
+h1 {font-family: "Dela Gothic One"; font-size: 60px; margin-left: 20px; text-shadow: 8px 8px 8px black;}
+h2 {font-family: "Titillium Web"; font-weight: 800; font-size: 50px; margin: 0}
+.fish, .bubble, .swimmer {z-index: 0}
+
+.recording-help:first-of-type {position: fixed; left: 1080px; height: 1080px; width: 100px; background-color: var(--recording-help)}
+.recording-help:nth-of-type(2) {position: fixed; top: 1080px; width: 1180px; height: 100px; background-color: var(--recording-help)}
